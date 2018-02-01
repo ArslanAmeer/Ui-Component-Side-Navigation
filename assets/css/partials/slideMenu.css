@@ -1,0 +1,56 @@
+span{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#slideMenu > ul,
+#slideMenu li{
+    list-style-type: none;
+    padding: 0;
+}
+
+.slidemenu{
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: brown;
+    overflow: hidden;
+    padding-top: 50px;
+    transition: width .5s ease-in-out;
+}
+
+.slidemenu a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.slidemenu a:hover{
+    color: red;
+}
+
+.hamButton{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    margin-left: 30px;
+}
+
+.closeButton{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    margin-left: 40px;
+}
+
+#main{
+    width:75%;
+    margin-left: 25%;
+    transition: width .5s ease-in-out .2s, margin-left .5s ease-in-out;
+}
